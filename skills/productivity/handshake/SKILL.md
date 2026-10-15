@@ -1,6 +1,6 @@
 ---
 name: handshake
-description: Generates a protocol-agnostic integration report or handoff spec for a third party based on a new implementation. Use when asked to document usage, contracts, interfaces, risks, or integration impact of a technical change.
+description: Generates a protocol-agnostic integration report or spec for a third party based on a new implementation. Use when asked to document usage, contracts, interfaces, risks, or integration impact of a technical change.
 ---
 
 # Handshake
@@ -11,7 +11,7 @@ Generates a protocol-agnostic technical handoff document designed exclusively fo
 
 Activate this skill when the user:
 
-- Requests an integration report, handoff, or technical specification for a third party.
+- Requests an integration report or technical specification for a third party.
 - Asks to document the usage, contract, or interface of a new implementation.
 - Asks to evaluate the impact matrix or integration risks of a technical change.
 
@@ -35,4 +35,6 @@ Activate this skill when the user:
    - Hide internal implementation details that do not directly affect the consumer.
    - Maintain an agnostic, neutral, and clear technical tone.
 
+**Determine File Location:**
 Save the generated document to the temporary directory of the user's OS (`$TMPDIR`, else `/tmp`; `%TEMP%` on Windows) rather than the current workspace to avoid project clutter.
+If you find an existing convention, use it. The filename should be `YYYY-MM-DD-handshake-<feature-name>.md`.
