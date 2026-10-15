@@ -1,5 +1,11 @@
 # @joansebgarcia/skills
 
+## 0.3.0
+
+### Minor Changes
+
+- [#7](https://github.com/joansebgarcia/skills/pull/7) [`85ec0a1`](https://github.com/joansebgarcia/skills/commit/85ec0a1c3bdc992390109e042fbadfcc41a9ce32) Thanks [@joansebgarcia](https://github.com/joansebgarcia)! - Add the `handshake` skill: generates a protocol-agnostic integration report or handoff spec for a third party, focused on the usage contract, behavior, and operational risks of a new implementation.
+
 ## 0.2.0
 
 ### Minor Changes
