@@ -1,5 +1,11 @@
 # @joansebgarcia/skills
 
+## 1.0.1
+
+### Patch Changes
+
+- [#11](https://github.com/joansebgarcia/skills/pull/11) [`9edae66`](https://github.com/joansebgarcia/skills/commit/9edae6616bd8c004f1da91c182ef3c34d4370853) Thanks [@joansebgarcia](https://github.com/joansebgarcia)! - `handshake` now names the generated document `YYYY-MM-DD-handshake-<feature-name>.md` and follows an existing file location convention when one is found.
+
 ## 1.0.0
 
 ### Major Changes
