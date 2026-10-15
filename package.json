@@ -15,6 +15,7 @@
     "url": "git+https://github.com/joansebgarcia/skills.git"
   },
   "type": "module",
+  "packageManager": "pnpm@11.2.2",
   "scripts": {
     "changeset": "changeset",
     "version-packages": "changeset version",
