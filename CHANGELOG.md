@@ -1,5 +1,13 @@
 # @joansebgarcia/skills
 
+## 1.0.0
+
+### Major Changes
+
+- [#9](https://github.com/joansebgarcia/skills/pull/9) [`ead55c5`](https://github.com/joansebgarcia/skills/commit/ead55c531795906e9fbe484525165406b2bf8ed1) Thanks [@joansebgarcia](https://github.com/joansebgarcia)! - Rename the `blueprint` skill to `staging`. Invoke it with `/staging` instead of `/blueprint`. Plans are now split into stages, so run them with "execute stage N" instead of "execute phase N".
+
+  The skill now writes for an executor who has not seen the conversation, self-reviews the plan before saving it (coverage, empty lines, naming consistency), and requires a `Done when` line on every stage.
+
 ## 0.3.0
 
 ### Minor Changes
