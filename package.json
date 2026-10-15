@@ -3,25 +3,28 @@
   "version": "0.2.0",
   "private": true,
   "description": "My Agents Skills. Straight from my .agents directory.",
-  "scripts": {
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "changeset publish"
+  "keywords": [],
+  "homepage": "https://github.com/joansebgarcia/skills#readme",
+  "bugs": {
+    "url": "https://github.com/joansebgarcia/skills/issues"
   },
+  "license": "ISC",
+  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joansebgarcia/skills.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/joansebgarcia/skills/issues"
+  "scripts": {
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
   },
-  "homepage": "https://github.com/joansebgarcia/skills#readme",
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",
-    "@changesets/cli": "^3.0.3"
+    "@changesets/cli": "^3.0.3",
+    "oxfmt": "^0.73.0"
   }
 }
