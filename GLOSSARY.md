@@ -1,11 +1,11 @@
 # Glossary
 
-**Skill**: Un conjunto de instrucciones empaquetado que un agente carga cuando su trigger coincide con la tarea.
+**Skill**: A packaged set of instructions that an agent loads when its trigger matches the task.
 
-**Trigger**: La descripción que decide cuándo un agente activa una skill. Cambiarlo cambia cuándo se usa la skill.
+**Trigger**: The description that determines when an agent activates a skill. Changing it alters when the skill is used.
 
-**Colección**: El conjunto de todas las skills de este repo. Es la unidad que se versiona: tiene una sola versión y no hay versiones por skill.
+**Collection**: The set of all skills in this repo. It is the unit that is versioned: it has a single version, rather than individual versions for each skill.
 
-**Release**: Una versión publicada de la colección, identificada por su número de versión `X.Y.Z`.
+**Release**: A published version of the collection, identified by its `X.Y.Z` version number.
 
-**Bump**: El tipo de salto de versión (major, minor o patch) que causa un cambio en la colección. Las reglas están en `.changeset/README.md`.
+**Bump**: The type of version increment (major, minor, or patch) resulting from a change to the collection. The rules are defined in `.changeset/README.md`.
