@@ -1,5 +1,11 @@
 # @joansebgarcia/skills
 
+## 1.1.0
+
+### Minor Changes
+
+- [#13](https://github.com/joansebgarcia/skills/pull/13) [`1d7542f`](https://github.com/joansebgarcia/skills/commit/1d7542f21dccc358d99c9dc755aac86a9c364947) Thanks [@joansebgarcia](https://github.com/joansebgarcia)! - Deprecate the `staging` and `handshake` skills by moving them to `skills/deprecated/`.
+
 ## 1.0.1
 
 ### Patch Changes
